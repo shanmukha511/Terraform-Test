@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   # Configuration options
   project = "firm-region-314807"
-  access_token = var.access_token
+  #access_token = var.access_token
 }
 resource "google_compute_firewall" "default" {
   name    = "test-firewall"
